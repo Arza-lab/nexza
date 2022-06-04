@@ -12,22 +12,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='flex flex flex-col justify-center items-center h-100vh'>
-        <h1 className='font-serif text-5xl'> Nexza <span className='text-teal-600'>Starter Template</span></h1>
+      <main className='flex flex-col justify-center items-center h-80vh text-center'>
+        <div className='grid grid-cols-12 gap-4'>
+        <h1 className='font-serif text-5xl col-span-12'> Nexza <span className='text-teal-600'>Starter Template</span></h1>
+        <p className='font-serif text-xl col-span-12'> A custom starter template for Next.js</p>
+        </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   )
 }

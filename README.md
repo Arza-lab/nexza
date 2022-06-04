@@ -7,11 +7,10 @@
 - [Windicss](https://windicss.org/)
 - [Mui Ui](https://mui.com/)
 - [React Hook Form](https://react-hook-form.com/)
-- ~~Markdown ~~
+- ~Markdown~
+- ~PWA~
 
 ## 🛠 Installation & Set Up
-
----
 
 1. Install the dependencies
 
